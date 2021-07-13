@@ -84,8 +84,23 @@ body {
 }
 
 /* Players Section Area Style End */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
 
+footer .footer-image img {
+    width: 483.87px;
+    height: 110px;
+}
 
+footer span i {
+    color: #969BAB;
+    font-size: 20px;
+    margin: 8px 8px;
+}
 
 /*******************************************************************************/
 /***** Media Query Use *****/
@@ -109,6 +124,11 @@ body {
 
     .players {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer .footer-image img {
+        width: 383.87px;
+        height: 80px;
     }
 }
 
@@ -149,5 +169,10 @@ body {
     .player-image img {
         width: 275px;
         height: 231px;
+    }
+
+    footer .footer-image img {
+        width: 126px;
+        height: 30px;
     }
 }
