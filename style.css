@@ -102,6 +102,11 @@ body {
         flex-direction: column;
     }
 
+    .hero-banner {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
