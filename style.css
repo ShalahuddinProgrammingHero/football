@@ -93,7 +93,11 @@ hr {
     padding: 15px 15px 33px 15px;
     border-radius: 5px;
     font-size: 16px;
+    transition: transform 1s;
+}
 
+.player:hover {
+    transform: scale(1.02);
 }
 
 .player-image img {
