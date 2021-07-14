@@ -75,6 +75,8 @@ hr {
 
 /* Hero Section Area Style End */
 
+
+
 /* Players Section Area Style Start */
 
 
@@ -107,6 +109,86 @@ hr {
 
 /* Players Section Area Style End */
 
+/* Our council Area Style Start */
+.ounr-councilors {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.council-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.council-heading h1 {
+    margin-bottom: 20px;
+}
+
+.council-title {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #E02C6D;
+}
+
+.councilors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.council-member {
+    border: 1px solid transparent;
+    padding: 15px;
+}
+
+.council-member:hover {
+    border: 1px solid tomato;
+}
+
+.member-image img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.member-name {
+    font-size: 1rem;
+    color: #000F2C;
+}
+
+.member-title {
+    color: #505b73;
+    ;
+}
+
+.member-country img {
+    width: 50%;
+    height: 50%;
+}
+
+.member-country,
+.member-confideration {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.member-confideration img {
+    width: 50%;
+    height: 50%;
+}
+
+.confideration-name {
+    color: #505b73;
+}
+
+/* Our council Area Style End */
+
 /* Partners Section Area Style Start */
 .our-partners {
     margin: 50px 0;
@@ -124,6 +206,7 @@ hr {
     margin: 60px 0;
     font-size: 30px;
     text-transform: uppercase;
+    color: #E02C6D;
 }
 
 /* Partners Section Area Style End */
@@ -175,6 +258,10 @@ footer span i {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .councilors {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .partners {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -222,6 +309,10 @@ footer span i {
     .player-image img {
         width: 275px;
         height: 231px;
+    }
+
+    .councilors {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .partners {
