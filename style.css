@@ -254,17 +254,13 @@ footer span i {
         margin-left: 0;
     }
 
-    .players {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
-    .councilors {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
+    .players,
+    .councilors,
     .partners {
         grid-template-columns: repeat(2, 1fr);
     }
+
 
     footer .footer-image img {
         width: 383.87px;
@@ -297,7 +293,9 @@ footer span i {
         height: 240px;
     }
 
-    .players {
+
+    .players,
+    .councilors {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -311,13 +309,11 @@ footer span i {
         height: 231px;
     }
 
-    .councilors {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .council-heading p {
         font-size: 12px;
     }
+
 
     .partners {
         grid-template-columns: repeat(2, 1fr);
@@ -328,6 +324,7 @@ footer span i {
         width: 50%;
         margin: 20px;
     }
+
 
     footer .footer-image img {
         width: 126px;
