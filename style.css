@@ -315,6 +315,10 @@ footer span i {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .council-heading p {
+        font-size: 12px;
+    }
+
     .partners {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0;
