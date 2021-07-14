@@ -307,8 +307,10 @@ footer span i {
     }
 
     .member-image img {
-        width: 303px;
+        width: 275px;
         height: 226px;
+        display: inline-block;
+        text-align: center;
     }
 
     .player {
