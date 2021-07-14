@@ -148,7 +148,7 @@ hr {
 }
 
 .member-image img {
-    width: 300px;
+    width: 310px;
     height: 256px;
     border-radius: 5px;
 }
@@ -163,11 +163,6 @@ hr {
     ;
 }
 
-.member-country img {
-    width: 50%;
-    height: 50%;
-}
-
 .member-country,
 .member-confideration {
     display: flex;
@@ -176,6 +171,11 @@ hr {
     margin: 0;
     padding: 0;
     margin-top: 5px;
+}
+
+.member-country img {
+    width: 50%;
+    height: 50%;
 }
 
 .member-confideration img {
@@ -243,6 +243,7 @@ footer span i {
     .container {
         width: 90%;
         margin: 20px auto;
+        justify-content: center;
     }
 
     .hero {
@@ -273,7 +274,7 @@ footer span i {
 /* Mobile Device */
 @media only screen and (max-width:668px) {
     .container {
-        width: 100%;
+        width: 90%;
         justify-content: center;
     }
 
@@ -297,6 +298,17 @@ footer span i {
     .players,
     .councilors {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        width: 280px;
+        height: 406px;
+
+    }
+
+    .member-image img {
+        width: 280px;
+        height: 226px;
     }
 
     .player {
