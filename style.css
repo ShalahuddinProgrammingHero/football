@@ -55,13 +55,11 @@ body {
 .hero-banner img {
     width: 556px;
     height: 438px;
+    transition: transform 1s;
 }
 
 .hero-banner img:hover {
-    z-index: 1;
-    transition: ease .3s;
-    transform: scale(1.05);
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
 }
 
 /* Hero Section Area Style End */
